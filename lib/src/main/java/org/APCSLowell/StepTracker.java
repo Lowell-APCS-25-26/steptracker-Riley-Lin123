@@ -25,6 +25,6 @@ public class StepTracker {
         if (daysTracked == 0){
             return 0.0;
         }
-        return (double)(steps/daysTracked);
+        return (double) steps / daysTracked;
     }
 }
